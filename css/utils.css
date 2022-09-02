@@ -1,0 +1,31 @@
+.text-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 5px 10px;
+    background-color: var(--main-bg-color);
+    color: white;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 7px;
+
+}
+.search button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search button:hover{
+    font-weight: bolder;
+    background-color: goldenrod;
+}
+.my2{
+    margin: 26px 0px;
+}
+.text-center{
+    text-align: center;
+    width: 10vw;
+}
+.my1{
+    margin: 5px 0px;
+}

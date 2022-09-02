@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --main-bg-color: #2874f0;
+
+}
+footer{
+    height: 20vh;
+    background-color:var(--main-bg-color);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header{
+    
+    background-color:var(--main-bg-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;   
+}
+nav{
+    display: flex;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 23px;
+    /* border: 2px solid black; */
+    text-align: center;
+    border-radius: 5px;
+    margin: 0px 12px 0px 56px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    padding: 0px 23px;
+    width: 88px;
+}
+.container{
+    min-height: calc(100vh - 58px - 20vh);
+    
+}
+.slider{
+    width: auto;
+    margin: 12px 243px;
+    overflow: hidden;
+}
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    /* overflow: scroll; */
+    overflow: hidden;
+}
